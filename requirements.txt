@@ -13,7 +13,7 @@ gast==0.4.0
 gitdb==4.0.11
 GitPython==3.1.43
 google-auth==2.30.0
-google-auth-oauthlib==0.4.6
+google-auth-oauthlib==0.5.0  # Atualizado para 0.5.0
 google-pasta==0.2.0
 grpcio==1.64.1
 h5py==3.11.0
@@ -29,7 +29,7 @@ Markdown==3.6
 markdown-it-py==3.0.0
 MarkupSafe==2.1.5
 mdurl==0.1.2
-numpy==1.26.4
+# numpy removido para permitir instalação automática de versão compatível
 oauthlib==3.2.2
 opt-einsum==3.3.0
 packaging==24.1
@@ -55,6 +55,6 @@ streamlit==1.35.0
 streamlit-option-menu==0.3.13
 tenacity==8.3.0
 tensorboard==2.13.0
-tensorboard-data-server==0.6.1
+tensorboard-data-server==0.7.0
 tensorboard-plugin-wit==1.8.1
 tensorflow==2.13.0

@@ -253,7 +253,7 @@ if selected == "Formulário":
 
             # Transform the entire data
             ct = ColumnTransformer(transformers=[
-                ('encoder', OneHotEncoder(sparse_output=False, categories=categories, handle_unknown='ignore'), categorical_columns)
+                ('encoder', OneHotEncoder(sparse=False, categories=categories, handle_unknown='ignore'), categorical_columns)
             ], remainder='passthrough')
 
             final_data = ct.fit_transform(input_data_transformed)
